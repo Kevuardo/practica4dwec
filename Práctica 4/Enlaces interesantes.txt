@@ -1,0 +1,5 @@
+Enlaces de php:
+
+https://stackoverflow.com/questions/36754578/calling-php-function-from-html-button-without-page-refresh
+
+http://www.etutorialspoint.com/index.php/13-retrieve-data-from-database-without-page-refresh-using-ajax-php-javascript

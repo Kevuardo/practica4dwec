@@ -1,0 +1,126 @@
+html, body {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Abel', sans-serif;
+    padding: 15px;
+    transition: all 0.3s linear;
+    min-width: 500px;
+}
+
+header {
+    margin: 0 auto;
+    padding: 15px;
+    width: fit-content;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+.contenedor {
+    margin: 10px 0px;
+    padding: 15px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+.boton-personalizado {
+    padding: 10px 20px;
+    margin: 0px 5px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    height: 100%;
+    background-color: #FFFFFF;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.boton-personalizado:active, .boton-personalizado:focus {
+    outline: 0;
+}
+
+.boton-personalizado a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btnVerde {
+    color: #28AF31;
+    border: 2px solid #28AF31;
+}
+
+.btnVerde:hover {
+    color: #FFFFFF;
+    background-color: #28AF31;
+}
+
+.btnRojo {
+    color: #EA0001;
+    border: 2px solid #EA0001;
+}
+
+.btnRojo:hover {
+    color: #FFFFFF;
+    background-color: #EA0001;
+}
+
+.btnAzul {
+    color: #033250;
+    border: 2px solid #033250;
+}
+
+.btnAzul:hover {
+    color: #FFFFFF;
+    background-color: #033250;
+}
+
+.btnAzul a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fila {
+    margin: 10px 0px;
+    clear: both;
+}
+
+#nombreMarca {
+    color: #EA0001;
+    transition: all 0.2s linear;
+}
+
+#nombreMarca:hover {
+    color: #033250;
+    cursor: pointer;
+}
+
+.muestraModelos {
+    margin: 0 auto;
+    width: fit-content;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #000000;
+}
+
+.muestraModelos tr th, .muestraModelos tr td {
+    text-align: left;
+    padding: 10px;
+}
+
+.muestraModelos tr:nth-child(even) {
+    background-color: #CCCCCC;
+}
+
+#muestraAjax, #tablaAjax {
+    display: none;
+}
+
+.datosModelo {
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.datosModelo:hover {
+    background-color: #68E263 !important;
+}
