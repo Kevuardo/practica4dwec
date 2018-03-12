@@ -86,7 +86,6 @@ function mostrarResultados(resultados, navegacion) {
             bandera -= modelosPorPagina;
         } else if ((bandera - modelosPorPagina) <= modelosPorPagina) {
             bandera = 0;
-            $('.btnAnterior').css('display', 'none');
         }
         
     } else if (navegacion == "adelante" || navegacion == "inicial") {
