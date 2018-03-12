@@ -44,6 +44,13 @@
                 
             </div>
             
+            <div class="fila navegacion">
+                
+                <button class="boton-personalizado btnRojo btnAnterior">Anteriores</button>
+                <button class="boton-personalizado btnAzul btnSiguiente">Siguientes</button>
+                
+            </div>
+            
             <div class="fila" id="muestraAjax">
 
                 <h2>Modelos encontrados de <span id="nombreMarca"></span></h2>

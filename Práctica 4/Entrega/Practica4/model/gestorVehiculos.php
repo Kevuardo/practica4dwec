@@ -52,7 +52,7 @@
         $conexion = crearConexion();
         
         $consulta = "select modelo, consumo from modelos where id_marca = "
-            . "(select id from marcas where marca = '" . $marcaSeleccionada . "') limit 25";
+            . "(select id from marcas where marca = '" . $marcaSeleccionada . "')";
         $resultado=$conexion->query($consulta);
         
         if ($conexion->errno!=0){

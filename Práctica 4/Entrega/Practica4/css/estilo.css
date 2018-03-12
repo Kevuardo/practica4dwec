@@ -80,9 +80,19 @@ header {
   text-decoration: none;
 }
 
+.btnAnterior, .btnSiguiente {
+    display: none;
+}
+
 .fila {
     margin: 10px 0px;
     clear: both;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #nombreMarca {
